@@ -1,0 +1,22 @@
+# Dataset (diunduh otomatis oleh torchvision, ~800 MB)
+data/
+
+# Model weights (ukuran besar, dibuat ulang saat notebook dijalankan)
+*.pt
+
+# Arsip hasil export / pengumpulan
+*.zip
+hasil_tugas05/
+
+# Notebook dan Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# File sistem
+.DS_Store
+Thumbs.db
