@@ -1,0 +1,3 @@
+experiment,trainable_params,total_params,epochs_to_converge,sec_per_epoch,train_time_sec,val_acc,test_macro_f1
+B3_finetune,8398858,11181642,4,13.6667,123.0,0.9799,0.9701
+B5_efficientnet_b0,1142202,4020358,15,13.505,270.1,0.9933,0.9835

@@ -1,0 +1,20 @@
+# Dependencies untuk main.ipynb (Tugas Take-Home Sesi 05)
+# Dijalankan dan diuji di Google Colab (GPU T4). Versi di bawah adalah batas minimum
+# yang mendukung API yang dipakai (ResNet18_Weights, EfficientNet_B0_Weights,
+# torchvision.datasets.OxfordIIITPet). Untuk reproduksi persis, ganti dengan versi
+# yang tercetak di Colab (lihat bagian "Reproducibility" di README.md).
+
+torch>=2.0
+torchvision>=0.15
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.2
+matplotlib>=3.7
+pillow>=9.5
+
+# Hanya untuk menjalankan notebook di lokal (di Colab sudah tersedia):
+notebook>=6.5
+ipython>=8.0
+
+# Catatan: baris `from google.colab import files` di sel export (Cell 36) hanya
+# tersedia di Google Colab dan tidak perlu di-install.

@@ -1,0 +1,6 @@
+test_pos,path,actual,predicted,confidence,prob_actual_class
+127,data/oxford-iiit-pet/images/pug_74.jpg,Pug,Boxer,0.9832856059074402,0.012443930841982365
+88,data/oxford-iiit-pet/images/Russian_Blue_8.jpg,Russian Blue,Abyssinian,0.9715235829353333,0.02839674800634384
+67,data/oxford-iiit-pet/images/Bengal_143.jpg,Bengal,Abyssinian,0.7139298319816589,0.28552061319351196
+197,data/oxford-iiit-pet/images/Abyssinian_150.jpg,Abyssinian,Bengal,0.6529609560966492,0.3348422348499298
+242,data/oxford-iiit-pet/images/Siamese_150.jpg,Siamese,Abyssinian,0.4362301528453827,0.37687650322914124

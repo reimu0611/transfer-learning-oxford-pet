@@ -1,0 +1,6 @@
+experiment,strategy,augmentation,trainable_params,lr_per_group,epochs_to_converge,train_time_sec,train_acc_clean,val_acc,overfit_gap,test_macro_f1
+B2_feature_extraction,B2,True,5130,[0.001],24,383.7,0.9928,0.9799,0.0129,0.961
+B1_scratch,B1,True,11181642,[0.001],20,364.1,0.7015,0.6221,0.0794,0.5946
+B3_finetune,B3,True,8398858,"[0.0001, 0.001]",4,123.0,0.9971,0.9799,0.0172,0.9701
+B4_B2_noaug,B2,False,5130,[0.001],29,285.4,1.0,0.9799,0.0201,0.9606
+B5_efficientnet_b0,E_B3,True,1142202,"[0.0001, 0.001]",15,270.1,1.0,0.9933,0.0067,0.9835

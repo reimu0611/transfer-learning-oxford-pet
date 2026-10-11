@@ -1,0 +1,17 @@
+{
+  "B2_backbone_equals_pretrained": true,
+  "B3_layer1_3_equals_pretrained": true,
+  "B3_layer4_equals_pretrained": false,
+  "layer4_relative_shift": 0.0592,
+  "cosine_feature_mean": 0.8062,
+  "cosine_feature_min": 0.6821,
+  "gradcam_cases_test_positions": [
+    26,
+    129,
+    130,
+    194,
+    229,
+    257
+  ],
+  "seed": 42
+}
